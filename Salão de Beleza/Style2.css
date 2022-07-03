@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right,#ffffff,#141010);
+   }
+	.coluna{
+            float: left;
+            width: 33.33%;
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        }
+        @media screen and (max-width: 500px) {
+        .column {
+        width: 100%;
+        }
+        }
+        img{
+            width: 150;
+        }
+        h1{
+            color: black;
+            text-align: center;
+        }
+        h2{
+            color: #1a0527;
+            text-align: center;
+        }
+        img{
+            width: 33%;
+            height: 40%;
+        }
